@@ -1,0 +1,15 @@
+doctype html
+html
+	head
+		link(href='./stylesheet.css', rel='stylesheet')
+	body
+		div.navbar
+			a(href='./') MESSAGE
+			a(href='./messagepost') RESULT
+			br
+			h1 see all the messages
+			each message in key
+				br
+				p=message.title
+				br
+				p=message.body

@@ -1,0 +1,27 @@
+html, body {
+	background-color: #e6ffe6;
+	margin:0;
+	padding:0;
+}
+
+.navbar {
+	text-align: center;
+	z-index:1;
+	color:black;
+	padding-right:50px;
+	padding-left:50px;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+	cursor: pointer;
+  	text-decoration: none;
+}
+
+.navbar a {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.message {
+	text-align: center;
+
+}

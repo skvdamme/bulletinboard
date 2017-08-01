@@ -1,0 +1,25 @@
+doctype html
+html
+	head
+		link(href='./stylesheet.css', rel='stylesheet')
+	body
+		div.navbar
+			a(href='./') MESSAGE
+			a(href='./messagepost') RESULT
+			br
+			br
+		div.message
+			h1 HI THERE!
+			h2 post a new message!
+			div.message-me
+				form(action='/message', method='post')
+					br
+					input(type='text', name='title')
+					br
+					br
+					input(resize='both', maxlength='500', name='message')
+					br
+					input(type='submit', value='Send')
+					input(type='reset', value='Empty')
+					br
+
